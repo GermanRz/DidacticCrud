@@ -1,0 +1,14 @@
+<?php
+echo "<script>
+Swal.fire({
+    title: '¡Registro exitoso!',
+    text: 'El elemento ha sido registrado correctamente.',
+    icon: 'success',
+    confirmButtonText: 'OK'
+}).then((result) => {
+    if (result.isConfirmed) {
+        window.location.href = 'pagina_destino.php';
+    }
+});
+</script>";
+?>
